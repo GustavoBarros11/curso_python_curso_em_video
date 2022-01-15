@@ -5,4 +5,4 @@ while sexo != 'M' and sexo != 'F':
     if sexo != 'M' and sexo != 'F':
         print('Por favor insira um valor válido como indicado entre colchetes [M/F]!')
     else:
-        print('Obigado!')
+        print('Sexo ' + sexo + ' registrado com sucesso!')
