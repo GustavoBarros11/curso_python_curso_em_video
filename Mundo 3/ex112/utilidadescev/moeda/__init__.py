@@ -4,13 +4,11 @@ def aumentar(n=0, porc=0, fmt=False):
 
     return aumento if fmt is False else moeda(aumento)
 
-
 def diminuir(n=0, porc=0, fmt=False):
     porc_decimal = (porc/100)
     reducao = n * (1-porc_decimal)
 
     return reducao if fmt is False else moeda(reducao)
-
 
 def dobro(n=0, fmt=False):
     return n*2  if fmt is False else moeda(n*2)

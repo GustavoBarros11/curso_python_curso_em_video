@@ -33,7 +33,7 @@ print('-'*45)
 
 while True:
     while True:
-        pos = int(input('Mostrar dados de qual jogador? (999 para parar) '))
+        pos = int(input('Mostrar dado de qual jogador? (999 para parar) '))
         if pos >= 0 and pos < len(jogadores) or pos == 999:
             break
         print(f'ERRO! Não existe jogador com código {pos}.')
