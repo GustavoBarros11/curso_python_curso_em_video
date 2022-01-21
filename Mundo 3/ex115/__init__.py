@@ -1,6 +1,5 @@
 import dado
 import file
-
 if __name__ == '__main__':
     pare = False
     while not pare:
@@ -19,14 +18,13 @@ if __name__ == '__main__':
                 print('\033[0;35m\nO usuário escolheu sair. Volte sempre!\033[m')
                 pare = True
                 break
-            finally:
-                dado.printLinha()
 
         if opcao == 3:
-            print('\033[0;35mO usuário escolheu sair. Volte sempre!\033[m')
+            print('\033[0;35mSaindo do sistema... Até logo!\033[m')
+            dado.printLinha()
             pare = True
             break
         elif opcao == 2:
-            print()
+            file.cadastrarPessoa()
         elif opcao == 1:
             file.mostrarCadastrados()

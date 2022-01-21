@@ -8,10 +8,9 @@ def titulo(txt, menu=False):
     print('~'*tam_linha)
     if menu:
         print('\033[1;33m1\033[m - \033[0;36mVer pessoas cadastradas\033[m')
-        print('\033[1;33m2\033[m - \033[0;36mCadastrar novas pessoas\033[m')
+        print('\033[1;33m2\033[m - \033[0;36mCadastrar nova pessoa\033[m')
         print('\033[1;33m3\033[m - \033[0;36mSair do sistema\033[m')
-    print('~'*tam_linha)
 
 
 def printLinha():
-    print('-'*tam_linha)
+    print('~'*tam_linha)
